@@ -1,0 +1,7 @@
+@mixin ellipsis{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+// 文字超出部分，不换行，省略号显示
+// 父元素记得设置overflow: hidden;
